@@ -1,6 +1,6 @@
 <?php
 function document_root(){
-	$data = $_SERVER['DOCUMENT_ROOT']."/crud_system/";
+	$data = $_SERVER['DOCUMENT_ROOT']."/crudsystem/";
 	echo $data;
 }
 function load_css($file){
@@ -19,7 +19,7 @@ function load_js($file){
 }
 function load_tpl($file){
 	foreach($file as $names => $specs){
-		include $_SERVER['DOCUMENT_ROOT']."/crud_system/application/views/_inc/".$specs.".php";
+		include $_SERVER['DOCUMENT_ROOT']."/crudsystem/application/views/_inc/".$specs.".php";
 	}
 }
 ?>
