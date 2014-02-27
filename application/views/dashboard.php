@@ -1,4 +1,4 @@
-<?php 
+<?php
 load_tpl(array('top'));
 body1(array("role"=>"document"));
 	load_tpl(array('menu'));
