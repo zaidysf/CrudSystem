@@ -1,5 +1,5 @@
 <?php 
-load_tpl(array('top'));
+load_tpl(array('top')); 
 body1(array("role"=>"document"));
 	load_tpl(array('menu'));
 	div1(array("class"=>"container theme-showcase","role"=>"main")); 
