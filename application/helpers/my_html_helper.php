@@ -398,5 +398,17 @@ function img_($attr){
 	$data .= ">\n";
 	echo $data;
 }
-# ========= END OF P FUNCTION ========== #
+# ========= END OF IMAGE FUNCTION ========== #
+# ========= STRONG FUNCTION ========== #
+function strong_($attr,$text){
+	$data = "<strong ";
+	if(isset($attr) && $attr != "" && $attr != null){
+		foreach($attr as $names => $specs){
+			$data .= $names."='".$specs."' ";
+		}
+	}
+	$data .= ">".$text."</strong>\n";
+	echo $data;
+}
+# ========= END OF STRONG FUNCTION ========== #
 ?>

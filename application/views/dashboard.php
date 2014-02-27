@@ -86,234 +86,276 @@ body1(array("role"=>"document"));
 			h_("1","","Navbars");
 		div2();
 		
+		div1(array("class"=>"navbar navbar-default"));
+			div1(array("class"=>"container"));
+				div1(array("class"=>"navbar-header"));
+					button1(array("type"=>"button","class"=>"navbar-toggle","data-toggle"=>"collapse","data-target"=>".navbar-collapse"),"");
+						span_(array("class"=>"sr-only"),"Toogle navigation");
+						span_(array("class"=>"icon-bar"),"");
+						span_(array("class"=>"icon-bar"),"");
+						span_(array("class"=>"icon-bar"),"");
+					button2();
+					a_(array("class"=>"navbar-brand","href"=>"#"),"Project name");
+				div2();
+				div1(array("class"=>"navbar-collapse collapse"));
+					ul1(array("class"=>"nav navbar-nav"));
+						li1(array("class"=>"active"));
+							a_(array("href"=>"#"),"Home");
+						li2();
+						li1("");
+							a_(array("href"=>"#about"),"About");
+						li2();
+						li1("");
+							a_(array("href"=>"#contact"),"Contact");
+						li2();
+						li1(array("class"=>"dropdown"));
+							a1(array("href"=>"#","class"=>"dropdown-toggle","data-toggle"=>"dropdown"));
+								__("Dropdown");
+								b_(array("class"=>"caret"),"");
+							a2();
+							ul1(array("class"=>"dropdown-menu"));
+								li1("");
+									a_(array("href"=>"#"),"Action");
+								li2();
+								li1("");
+									a_(array("href"=>"#"),"Another action");
+								li2();
+								li1("");
+									a_(array("href"=>"#"),"Something else here");
+								li2();
+								li_(array("class"=>"divider"),"");
+								li_(array("class"=>"dropdown-header"),"Nav header");
+								li1("");
+									a_(array("href"=>"#"),"Separated link");
+								li2();
+								li1("");
+									a_(array("href"=>"#"),"One more separated link");
+								li2();
+							ul2();
+						li2();
+					ul2();
+				div2(); #.nav-collapse
+			div2();
+		div2();
+		
+		div1(array("class"=>"navbar navbar-inverse"));
+			div1(array("class"=>"container"));
+				div1(array("class"=>"navbar-header"));
+					button1(array("type"=>"button","class"=>"navbar-toggle","data-toggle"=>"collapse","data-target"=>".navbar-collapse"),"");
+						span_(array("class"=>"sr-only"),"Toogle navigation");
+						span_(array("class"=>"icon-bar"),"");
+						span_(array("class"=>"icon-bar"),"");
+						span_(array("class"=>"icon-bar"),"");
+					button2();
+					a_(array("class"=>"navbar-brand","href"=>"#"),"Project name");
+				div2();
+				div1(array("class"=>"navbar-collapse collapse"));
+					ul1(array("class"=>"nav navbar-nav"));
+						li1(array("class"=>"active"));
+							a_(array("href"=>"#"),"Home");
+						li2();
+						li1("");
+							a_(array("href"=>"#about"),"About");
+						li2();
+						li1("");
+							a_(array("href"=>"#contact"),"Contact");
+						li2();
+						li1(array("class"=>"dropdown"));
+							a1(array("href"=>"#","class"=>"dropdown-toggle","data-toggle"=>"dropdown"));
+								__("Dropdown");
+								b_(array("class"=>"caret"),"");
+							a2();
+							ul1(array("class"=>"dropdown-menu"));
+								li1("");
+									a_(array("href"=>"#"),"Action");
+								li2();
+								li1("");
+									a_(array("href"=>"#"),"Another action");
+								li2();
+								li1("");
+									a_(array("href"=>"#"),"Something else here");
+								li2();
+								li_(array("class"=>"divider"),"");
+								li_(array("class"=>"dropdown-header"),"Nav header");
+								li1("");
+									a_(array("href"=>"#"),"Separated link");
+								li2();
+								li1("");
+									a_(array("href"=>"#"),"One more separated link");
+								li2();
+							ul2();
+						li2();
+					ul2();
+				div2(); #.nav-collapse
+			div2();
+		div2();
+		
+		div1(array("class"=>"page-header"));
+			h_("1","","Alerts");
+		div2();
+		div1(array("class"=>"alert alert-success"));
+			strong_("","Well done!");
+			__(" You successfully read this important alert message.");
+		div2();
+		div1(array("class"=>"alert alert-info"));
+			strong_("","Heads up!");
+			__(" This alert needs your attention, but it's not super important.");
+		div2();
+		div1(array("class"=>"alert alert-warning"));
+			strong_("","Warning!");
+			__(" Best check yo self, you're not looking too good.");
+		div2();
+		div1(array("class"=>"alert alert-danger"));
+			strong_("","Oh snap!");
+			__(" Change a few things up and try submitting again.");
+		div2();
+		
+		div1(array("class"=>"page-header"));
+			h_("1","","Progress bars");
+		div2();
+		div1(array("class"=>"progress"));
+			div1(array("class"=>"progress-bar","role"=>"progressbar","aria-valuenow"=>"60","aria-valuemin"=>"0","aria-valuemax"=>"100","style"=>"width: 60%;"));
+				span_(array("class"=>"sr-only"),"60% Complete");
+			div2();
+		div2();
+		div1(array("class"=>"progress"));
+			div1(array("class"=>"progress-bar progress-bar-success","role"=>"progressbar","aria-valuenow"=>"40","aria-valuemin"=>"0","aria-valuemax"=>"100","style"=>"width: 40%;"));
+				span_(array("class"=>"sr-only"),"40% Complete (success)");
+			div2();
+		div2();
+		div1(array("class"=>"progress"));
+			div1(array("class"=>"progress-bar progress-bar-info","role"=>"progressbar","aria-valuenow"=>"20","aria-valuemin"=>"0","aria-valuemax"=>"100","style"=>"width: 20%;"));
+				span_(array("class"=>"sr-only"),"60% Complete");
+			div2();
+		div2();
+		div1(array("class"=>"progress"));
+			div1(array("class"=>"progress-bar progress-bar-warning","role"=>"progressbar","aria-valuenow"=>"60","aria-valuemin"=>"0","aria-valuemax"=>"100","style"=>"width: 60%;"));
+				span_(array("class"=>"sr-only"),"60% Complete (warning)");
+			div2();
+		div2();
+		div1(array("class"=>"progress"));
+			div1(array("class"=>"progress-bar progress-bar-danger","role"=>"progressbar","aria-valuenow"=>"80","aria-valuemin"=>"0","aria-valuemax"=>"100","style"=>"width: 80%;"));
+				span_(array("class"=>"sr-only"),"80% Complete (danger)");
+			div2();
+		div2();
+		
+		div1(array("class"=>"progress"));
+			div1(array("class"=>"progress-bar progress-bar-success","style"=>"width: 35%;"));
+				span_(array("class"=>"sr-only"),"35% Complete (success)");
+			div2();
+			div1(array("class"=>"progress-bar progress-bar-warning","style"=>"width: 20%;"));
+				span_(array("class"=>"sr-only"),"20% Complete (warning)");
+			div2();
+			div1(array("class"=>"progress-bar progress-bar-danger","style"=>"width: 10%;"));
+				span_(array("class"=>"sr-only"),"10% Complete (danger)");
+			div2();
+		div2();
+		
+		div1(array("class"=>"page-header"));
+			h_("1","","List groups");
+		div2();
+		div1(array("class"=>"row"));
+			div1(array("class"=>"col-sm-4"));
+				ul1(array("class"=>"list-group"));
+					li_(array("class"=>"list-group-item"),"Cras justo odio");
+					li_(array("class"=>"list-group-item"),"Dapibus ac facilisis in");
+					li_(array("class"=>"list-group-item"),"Morbi leo risus");
+					li_(array("class"=>"list-group-item"),"Porta ac consectetur ac");
+					li_(array("class"=>"list-group-item"),"Vestibulum at eros");
+				ul2();
+			div2(); # /.col-sm-4
+			div1(array("class"=>"col-sm-4"));
+				div1(array("class"=>"list-group"));
+					a_(array("class"=>"list-group-item active"),"Cras justo odio");
+					a_(array("class"=>"list-group-item"),"Dapibus ac facilisis in");
+					a_(array("class"=>"list-group-item"),"Morbi leo risus");
+					a_(array("class"=>"list-group-item"),"Porta ac consectetur ac");
+					a_(array("class"=>"list-group-item"),"Vestibulum at eros");
+				div2();
+			div2(); # /.col-sm-4
+			div1(array("class"=>"col-sm-4"));
+				div1(array("class"=>"list-group"));
+					a1(array("class"=>"list-group-item active"));
+						h_("4",array("class"=>"list-group-item-heading"),"List group item heading");
+						p_(array("class"=>"list-group-item-text"),"Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.");
+					a2();
+					a1(array("class"=>"list-group-item"));
+						h_("4",array("class"=>"list-group-item-heading"),"List group item heading");
+						p_(array("class"=>"list-group-item-text"),"Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.");
+					a2();
+					a1(array("class"=>"list-group-item"));
+						h_("4",array("class"=>"list-group-item-heading"),"List group item heading");
+						p_(array("class"=>"list-group-item-text"),"Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.");
+					a2();
+				div2();
+			div2(); # /.col-sm-4
+		div2();
+		
+		div1(array("class"=>"page-header"));
+			h_("1","","Panels");
+		div2();
+		div1(array("class"=>"row"));
+			div1(array("class"=>"col-sm-4"));
+				div1(array("class"=>"panel panel-default"));
+					div1(array("class"=>"panel-heading"));
+						h_("3",array("class"=>"panel-title"),"Panel title");
+					div2();
+					div1(array("class"=>"panel-body"));
+						__("Panel content");
+					div2();
+				div2();
+				div1(array("class"=>"panel panel-primary"));
+					div1(array("class"=>"panel-heading"));
+						h_("3",array("class"=>"panel-title"),"Panel title");
+					div2();
+					div1(array("class"=>"panel-body"));
+						__("Panel content");
+					div2();
+				div2();
+			div2(); # /.col-sm-4
+			div1(array("class"=>"col-sm-4"));
+				div1(array("class"=>"panel panel-success"));
+					div1(array("class"=>"panel-heading"));
+						h_("3",array("class"=>"panel-title"),"Panel title");
+					div2();
+					div1(array("class"=>"panel-body"));
+						__("Panel content");
+					div2();
+				div2();
+				div1(array("class"=>"panel panel-info"));
+					div1(array("class"=>"panel-heading"));
+						h_("3",array("class"=>"panel-title"),"Panel title");
+					div2();
+					div1(array("class"=>"panel-body"));
+						__("Panel content");
+					div2();
+				div2();
+			div2(); # /.col-sm-4
+			div1(array("class"=>"col-sm-4"));
+				div1(array("class"=>"panel panel-warning"));
+					div1(array("class"=>"panel-heading"));
+						h_("3",array("class"=>"panel-title"),"Panel title");
+					div2();
+					div1(array("class"=>"panel-body"));
+						__("Panel content");
+					div2();
+				div2();
+				div1(array("class"=>"panel panel-danger"));
+					div1(array("class"=>"panel-heading"));
+						h_("3",array("class"=>"panel-title"),"Panel title");
+					div2();
+					div1(array("class"=>"panel-body"));
+						__("Panel content");
+					div2();
+				div2();
+			div2(); # /.col-sm-4
+		div2();
+		
+		div1(array("class"=>"page-header"));
+			h_("1","","Wells");
+		div2();
+		div1(array("class"=>"well"));
+			p_("","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.");
+		div2();
+load_tpl(array('bottom')); 
 ?>
-      <div class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-
-      <div class="navbar navbar-inverse">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Alerts</h1>
-      </div>
-      <div class="alert alert-success">
-        <strong>Well done!</strong> You successfully read this important alert message.
-      </div>
-      <div class="alert alert-info">
-        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
-      </div>
-      <div class="alert alert-warning">
-        <strong>Warning!</strong> Best check yo self, you're not looking too good.
-      </div>
-      <div class="alert alert-danger">
-        <strong>Oh snap!</strong> Change a few things up and try submitting again.
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Progress bars</h1>
-      </div>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
-        <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
-        <div class="progress-bar progress-bar-danger" style="width: 10%"><span class='sr-only'>10% Complete (danger)</span></div>
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>List groups</h1>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <ul class="list-group">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">
-              Cras justo odio
-            </a>
-            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-            <a href="#" class="list-group-item">Morbi leo risus</a>
-            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-            <a href="#" class="list-group-item">Vestibulum at eros</a>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">
-              <h4 class="list-group-item-heading">List group item heading</h4>
-              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-            </a>
-            <a href="#" class="list-group-item">
-              <h4 class="list-group-item-heading">List group item heading</h4>
-              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-            </a>
-            <a href="#" class="list-group-item">
-              <h4 class="list-group-item-heading">List group item heading</h4>
-              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-            </a>
-          </div>
-        </div><!-- /.col-sm-4 -->
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Panels</h1>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="panel panel-success">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="panel panel-warning">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-          <div class="panel panel-danger">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Wells</h1>
-      </div>
-      <div class="well">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-      </div>
-
-
-    </div> <!-- /container -->
-
-
-    <?php load_tpl(array('bottom')); ?>
