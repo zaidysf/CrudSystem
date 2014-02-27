@@ -81,11 +81,12 @@ body1(array("role"=>"document"));
 				li2();
 			ul2();
 		div2();
+		
+		div1(array("class"=>"page-header"));
+			h_("1","","Navbars");
+		div2();
+		
 ?>
-      <div class="page-header">
-        <h1>Navbarss</h1>
-      </div>
-
       <div class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
