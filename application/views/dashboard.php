@@ -4,6 +4,7 @@ body1(array("role"=>"document"));
 	load_tpl(array('menu'));
 	div1(array("class"=>"container theme-showcase","role"=>"main")); 
 		# Main jumbotron for a primary marketing message or call to action
+		# Mainzzzzz action
 		div1(array("class"=>"jumbotron"));
 			h_("1","","Hello, world!");
 			p_("","This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.");
