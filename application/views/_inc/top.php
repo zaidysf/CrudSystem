@@ -10,5 +10,6 @@ html1(array("lang"=>"en"));
 		link_(array("rel"=>"shortcut icon","href"=>"../../assets/ico/favicon.ico"));
 		title_("","Theme Template for Bootstrap");
     	load_css(array('bootstrap.min','bootstrap-theme.min','theme','style'));
+		link_(array("rel"=>"stylesheet","href"=>base_url()."themes/default/theme.css"));
 	head2();
 ?>
