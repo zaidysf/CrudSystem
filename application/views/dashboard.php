@@ -3,6 +3,7 @@ load_tpl(array('top'));
 body1(array("role"=>"document"));
 	load_tpl(array('menu'));
 	div1(array("class"=>"container theme-showcase","role"=>"main")); 
+    # Main jumbotron for a primary marketing message or call to action
 		# Main jumbotron for a primary marketing message or call to action
 		div1(array("class"=>"jumbotron"));
 			h_("1","","Hello, world!");
